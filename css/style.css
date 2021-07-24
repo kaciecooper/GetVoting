@@ -188,7 +188,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 #hero {
    width: 100%;
    height: 400px;
-   background: url("../images/flag-img.jpg") no-repeat center center fixed;
+   background: url("../images/flag-img") no-repeat center center fixed;
    background-size: cover;
    text-align: center;
    position: relative;
