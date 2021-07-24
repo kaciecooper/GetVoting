@@ -99,6 +99,7 @@ header, footer
     background: #555;
 }
 
+
 h1
 {
     color: #AAA;
@@ -123,7 +124,7 @@ div.container
 {
     font-family: Raleway;
     margin: 0 auto;
-  padding: 7em 3em;
+  padding:50px;
   text-align: center;
 }
 
@@ -144,7 +145,11 @@ div.container a
 
 .cyan
 {
-    background: #00bcd4;
+     background: #A2E3C4;
+
+/*
+    background: #B3BFB8;
+    */
 }
 
 
@@ -183,12 +188,93 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 
 
+/*------------Vote---------------*/
+
+
+
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container h1:nth-child(1) {
+  color: #ffffff;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 2s steps(2,end) forwards;
+}
+
+.container h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto auto auto;
+  background: linear-gradient(to right,  #e74c3c, #fff, #3498db);
+  font-weight: 800;
+  font-size: 70px;  
+  width: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 3.2s steps(20,end) 1s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 0;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 500px 0;
+    opacity: 0;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 500px 0;
+    opacity: 100;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 1px solid orange;
+  }
+  100%{
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
 /*------------Hero Section---------------*/
+
+
 
 #hero {
    width: 100%;
    height: 400px;
-   background: url("../images/flag-img") no-repeat center center fixed;
+   /*background: url("../images/vote-img.jpg") no-repeat center center fixed;*/
    background-size: cover;
    text-align: center;
    position: relative;
@@ -320,7 +406,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 }
 #map .model-green .state .shape {
-    fill: #65697c;
+    fill: #A2E3C4;
 }
 
 #map .model-green .state:hover .shape, #map .model-green .state.hover .shape {
