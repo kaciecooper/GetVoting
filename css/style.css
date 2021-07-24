@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'moderneramono-regluar';
-    src: url('font/ModernEraMono-Regular.woff2') format('woff2'), url('font/ModernEraMono-Regular.woff') format('woff');
+    src: url('font/ModernEra-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -141,7 +141,7 @@ h1
 }
 
 p {
-    font-family: 'moderneramono-regluar';
+  font-family: 'moderneramono-regluar';
   font-size: 18px;
 }
 
@@ -159,7 +159,7 @@ header span
 
 div.container
 {
-    font-family: ModernEraMono-Regular;
+  font-family: 'moderneramono-regluar';
     margin: 0 auto;
   padding:50px;
   text-align: center;
@@ -169,7 +169,7 @@ div.container a
 {
     color: #333;
     text-decoration: none;
-    font: 18px ModernEraMono-Regular;
+    font-family: 'moderneramono-regluar';
     margin: 0px 10px;
     margin-bottom: 40px;
     padding: 10px 10px;
@@ -246,7 +246,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 .container h1:nth-child(1) {
   color: #ffffff;
-  font-family: ModernEraMono-Regular, monospace;
+   font-family: 'moderneramono-regluar';
   font-weight: 800;
   font-size: 30px;
   text-align: center;
@@ -257,7 +257,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 .container h1:nth-child(2) {
   opacity: 0;
-  font-family: ModernEraMono-Regular, sans-serif;
+   font-family: 'moderneramono-regluar';
   margin: 0 auto auto auto;
   background: linear-gradient(to right,  #e74c3c, #fff, #3498db);
   font-weight: 800;
@@ -440,7 +440,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 #map .state .label_state {
     display: none;
-    font-family: ModernEraMono-Regular;
+     font-family: 'moderneramono-regluar';
     font-size: 25px;
     font-weight:normal;
     text-align:center;
@@ -495,7 +495,7 @@ a:hover {
     width:100%;
     text-align: center;
     font-size: 12px;
-    font-family: ModernEraMono-Regular, sans-serif;
+     font-family: 'moderneramono-regluar';
     font-weight: 300;
     font-style: normal;
     }
