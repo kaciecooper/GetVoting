@@ -193,12 +193,14 @@ div.brackets a:hover:before, div.brackets a:hover:after
   position: absolute;
   z-index: 9;
   text-align: center;
+ top: 30px;
+  right: 60;
 }
 
 #mydivheader {
-  padding: 10px;
+  padding: 0px;
   cursor: move;
-  z-index: 10; 
+  z-index: 100; 
   color: #fff;
 }
 
