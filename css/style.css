@@ -1,12 +1,13 @@
 
 
+
+
 @font-face {
-    font-family: 'ModernEraMono-Regular';
-    src: url('font/ModernEraMono-Regular.woff2') format('woff2'), url('ModernEraMono-Regular.woff') format('woff');
+    font-family: 'moderneramono-regluar';
+    src: url('font/ModernEraMono-Regular.woff2') format('woff2'), url('font/ModernEraMono-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 
 /*
 
@@ -122,7 +123,7 @@ html, body
 
 header, footer
 {
-    font-family: Raleway;
+    font-family: Moret Bold;
     margin: 0 auto;
   padding: 5em 3em;
   text-align: center;
@@ -132,6 +133,7 @@ header, footer
 
 h1
 {
+  font-family: Moret Bold;
     color: #AAA;
     font-size: 40px;
     font-weight: lighter;
@@ -139,7 +141,7 @@ h1
 }
 
 p {
-  font-family: ModernEraMono-Regular;
+    font-family: 'moderneramono-regluar';
   font-size: 18px;
 }
 
@@ -157,7 +159,7 @@ header span
 
 div.container
 {
-    font-family: Raleway;
+    font-family: ModernEraMono-Regular;
     margin: 0 auto;
   padding:50px;
   text-align: center;
@@ -167,7 +169,7 @@ div.container a
 {
     color: #333;
     text-decoration: none;
-    font: 18px Raleway;
+    font: 18px ModernEraMono-Regular;
     margin: 0px 10px;
     margin-bottom: 40px;
     padding: 10px 10px;
@@ -244,7 +246,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 .container h1:nth-child(1) {
   color: #ffffff;
-  font-family: 'Fira Code', monospace;
+  font-family: ModernEraMono-Regular, monospace;
   font-weight: 800;
   font-size: 30px;
   text-align: center;
@@ -255,7 +257,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 .container h1:nth-child(2) {
   opacity: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: ModernEraMono-Regular, sans-serif;
   margin: 0 auto auto auto;
   background: linear-gradient(to right,  #e74c3c, #fff, #3498db);
   font-weight: 800;
@@ -438,7 +440,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 #map .state .label_state {
     display: none;
-    font-family: montserrat, sans serif;
+    font-family: ModernEraMono-Regular;
     font-size: 25px;
     font-weight:normal;
     text-align:center;
@@ -493,7 +495,7 @@ a:hover {
     width:100%;
     text-align: center;
     font-size: 12px;
-    font-family: tenez, sans-serif;
+    font-family: ModernEraMono-Regular, sans-serif;
     font-weight: 300;
     font-style: normal;
     }
