@@ -130,7 +130,7 @@ div.container
 
 div.container a
 {
-    color: #FFF;
+    color: #333;
     text-decoration: none;
     font: 18px Raleway;
     margin: 0px 10px;
@@ -145,7 +145,7 @@ div.container a
 
 .cyan
 {
-     background: #A2E3C4;
+     background: #fff;
 
 /*
     background: #B3BFB8;
@@ -274,7 +274,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 #hero {
    width: 100%;
    height: 400px;
-   /*background: url("../images/vote-img.jpg") no-repeat center center fixed;*/
+   background: url("../images/line-img") no-repeat center center fixed;
    background-size: cover;
    text-align: center;
    position: relative;
