@@ -1,6 +1,11 @@
 
 
-
+@font-face {
+    font-family: 'ModernEraMono-Regular';
+    src: url('font/ModernEraMono-Regular.woff2') format('woff2'), url('ModernEraMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /*
@@ -131,6 +136,11 @@ h1
     font-size: 40px;
     font-weight: lighter;
     margin-bottom: 5px;
+}
+
+p {
+  font-family: ModernEraMono-Regular;
+  font-size: 18px;
 }
 
 header span
