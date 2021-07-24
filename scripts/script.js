@@ -1,7 +1,9 @@
 // your script file for adding your own jquery
 $(function() {
 
-
+$(function() {
+  $("#img1").draggable({  });
+});
 
 /*
 function showNav(){
