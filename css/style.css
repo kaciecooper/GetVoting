@@ -87,6 +87,7 @@
 
 html, body
 {
+   width: 100%;
     margin: 0px;
 }
 
@@ -191,30 +192,19 @@ div.brackets a:hover:before, div.brackets a:hover:after
 #mydiv {
   position: absolute;
   z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
   text-align: center;
 }
 
 #mydivheader {
   padding: 10px;
   cursor: move;
-  z-index: 10;
-  background-color: #2196F3;
+  z-index: 10; 
   color: #fff;
 }
 
 /*------------Vote---------------*/
 
 
-
-.container{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 100px;
-}
 
 .container h1:nth-child(1) {
   color: #ffffff;
