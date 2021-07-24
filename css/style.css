@@ -81,8 +81,232 @@
 
 */
 
+/*------------Fonts---------------*/
+
+
+
+html, body
+{
+    margin: 0px;
+}
+
+header, footer
+{
+    font-family: Raleway;
+    margin: 0 auto;
+  padding: 5em 3em;
+  text-align: center;
+    background: #555;
+}
+
+h1
+{
+    color: #AAA;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+header span
+{
+    color: #222;
+}
+
+
+
+
+
+
+/*------------NAV---------------*/
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+  padding: 7em 3em;
+  text-align: center;
+}
+
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 18px Raleway;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+.cyan
+{
+    background: #00bcd4;
+}
+
+
+
+
+/* Brackets go out */
+div.brackets a:before, div.brackets a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 0px;
+    transition: all 0.3s;
+}
+
+div.brackets a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.brackets a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div.brackets a:hover:before, div.brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+/*------------Hero Section---------------*/
+
+#hero {
+   width: 100%;
+   height: 400px;
+   background: url("../images/flag-img.jpg") no-repeat center center fixed;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+}
+
+
+ #hero .herotext {
+   color: #fff;
+   text-transform: uppercase;
+  /* position: absolute;
+  */
+  /* display: inline-block;
+  */
+   visibility: hidden;
+   opacity: 0;
+   margin: 0 auto;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+ #hero .herotext h2 {
+   font-size: 3em;
+}
+ #hero #first {
+   animation: fade-first 14s linear infinite;
+}
+ #hero #second {
+   animation: fade-second 14s linear infinite;
+}
+ #hero #third {
+   animation: fade-third 14s linear infinite;
+}
+ @keyframes fade-first {
+   0% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   3% {
+     opacity: 1;
+     visibility: visible;
+  }
+   30% {
+     opacity: 1;
+     visibility: visible;
+  }
+   33% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   100% {
+     opacity: 0;
+     visibility: hidden;
+  }
+}
+ @keyframes fade-second {
+   0% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   33% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   36% {
+     opacity: 1;
+     visibility: visible;
+  }
+   63% {
+     opacity: 1;
+     visibility: visible;
+  }
+   66% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   100% {
+     opacity: 0;
+     visibility: hidden;
+  }
+}
+ @keyframes fade-third {
+   0% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   66% {
+     opacity: 0;
+     visibility: hidden;
+  }
+   69% {
+     opacity: 1;
+     visibility: visible;
+  }
+   96% {
+     opacity: 1;
+     visibility: visible;
+  }
+   100% {
+     opacity: 0;
+     visibility: hidden;
+  }
+}
+/*------------Intro Section---------------*/
+
+.intro-section{
+  width: auto;
+  margin: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+
 /*------------SVG Map---------------*/
 
+.map-section{
+  margin-top: 100px;
+
+}
 
 #map .state .label_state {
     display: none;
@@ -151,23 +375,17 @@ a:hover {
 
 
 
-
-
 @media only screen and (min-width:768px) {
-
-    a{font-size: 20px;}
 
   .mobile-links{
     display:none;
   }
 
 
-@media only screen and (min-width:1024px) {
+  }
+@media only screen and (max-width:1024px) {
 
-    a{font-size: 30px;
-      padding:30px;}
-
-        .map-section{
+  .map-section{
     display:none;
   }
   
@@ -175,9 +393,4 @@ a:hover {
 }
 
 
-@media only screen and (min-width:1200px) {
-   a{font-size: 40px;
-     padding:40px;}
-
-
- }
+</style>
