@@ -211,9 +211,10 @@ div.brackets a:before, div.brackets a:after
 {
     position: absolute;
     opacity: 0;
-    font-size: 35px;
+    font-size: 30px;
     top: 0px;
     transition: all 0.3s;
+    color: #F5AF00;
 }
 
 div.brackets a:before
@@ -304,6 +305,7 @@ font-family: moret, serif;
     background-position: 500px 0;
     opacity: 100;
     border-right: 1px solid orange;
+    
   }
 }
 
