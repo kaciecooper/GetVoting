@@ -6,6 +6,108 @@
 }
 
 
+/*
+
+
+Moret Regular
+font-family: moret, serif;
+font-weight: 400;
+font-style: normal;
+
+
+Moret Regular Oblique
+font-family: moret, serif;
+font-weight: 400;
+font-style: italic;
+
+
+Moret Bold
+font-family: moret, serif;
+font-weight: 700;
+font-style: normal;
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffe1d9;;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffff;
+  text-align: center;
+  padding: 17px 18px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: tenez, sans-serif;
+  font-weight: 300;
+}
+
+.active {
+  background-color: #f6a41e;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+  font-family: tenez, sans-serif;
+  font-weight: 300;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffe1d9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #f7b000;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: tenez, sans-serif;
+  font-weight: 300;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #f6a41e;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #f6a41e,
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+*/
+
 
 /*------------Fonts---------------*/
 
@@ -15,17 +117,14 @@ body {
   margin: 0px;
 }
 
-
-
 header,
 footer {
   font-family: Moret Bold;
   margin: 0 auto;
+  padding: 5em 3em;
   text-align: center;
   background: #555;
 }
-
-
 
 h1 {
   font-family: moret, serif;
@@ -36,13 +135,11 @@ h1 {
   margin-bottom: 5px;
 }
 
-
 p {
   font-family: 'modernera-regluar';
   font-size: 17px;
   padding: 10px;
 }
-
 
 h3 {
   font-family: moret, serif;
@@ -52,7 +149,6 @@ h3 {
   color: #E06C00;
 
 }
-
 
 h4 {
   font-family: moret, serif;
@@ -66,15 +162,12 @@ h4 {
   text-align: left;
 }
 
-
 header span {
   color: #222;
 }
 
 
-
 /*------------Logo---------------*/
-
 
 .logo-section{
   display: grid;
@@ -89,7 +182,6 @@ header span {
 
 
 /*------------NAV---------------*/
-
 
 div.container {
   font-family: 'modernera-regluar';
@@ -136,13 +228,11 @@ div.brackets a:before {
   transform: translateX(10px);
 }
 
-
 div.brackets a:after {
   content: ')';
   right: 0px;
   transform: translateX(-10px);
 }
-
 
 div.brackets a:hover:before,
 div.brackets a:hover:after {
@@ -160,7 +250,6 @@ div.brackets a:hover:after {
   top: 30px;
   right: 60;
 }
-
 
 #mydivheader {
   padding: 0px;
@@ -182,7 +271,6 @@ div.brackets a:hover:after {
   overflow: hidden;
   animation: type 2s steps(2, end) forwards;
 }
-
 
 .container h1:nth-child(2) {
   opacity: 0;
@@ -240,8 +328,8 @@ div.brackets a:hover:after {
   }
 }
 
-/*------------Hero Section---------------*/
 
+/*------------Hero Section---------------*/
 
 #hero-state {
   width: 100%;
@@ -251,6 +339,7 @@ div.brackets a:hover:after {
   text-align: center;
   position: relative;
 }
+
 #hero {
   width: 100%;
   height: 400px;
@@ -259,7 +348,6 @@ div.brackets a:hover:after {
   text-align: center;
   position: relative;
 }
-
 
 #hero .herotext {
   color: #fff;
@@ -276,7 +364,6 @@ div.brackets a:hover:after {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 #hero .herotext h2 {
   font-size: 3em;
@@ -445,6 +532,7 @@ a:hover {
 }
 
 
+
 /*------------Resource Intro---------------*/
 .resource-h3{
 
@@ -458,7 +546,6 @@ a:hover {
   padding: 20px;
   margin: auto;
 }
-
 /*------------Resource Section---------------*/
 
 .resource-section{
@@ -491,12 +578,6 @@ a:hover {
   .mobile-links {
     display: none;
   }
-html,
-body {
-  width: 100%;
-  margin: 0px;
-}
-
 }
 
 @media only screen and (max-width:1024px) {
@@ -511,13 +592,12 @@ body {
   .mobile-links {
     padding: 40px;
   }
+
 .resource-section{
   display: grid;
   grid-template-columns: 1fr;
   padding: 30px;
 }
-
-
 
 .resource-h3{
  font-size: 25px;
@@ -531,7 +611,6 @@ body {
   padding: 20px;
   margin: auto;
 }
-
 
 .p{
   padding-bottom:30px ;
