@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'moderneramono-regluar';
+   font-family: 'modernera-regluar';
     src: url('font/ModernEra-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -133,16 +133,30 @@ header, footer
 
 h1
 {
-  font-family: Moret Bold;
+
+font-family: moret, serif;
+font-weight: 700;
+font-style: normal;
     color: #AAA;
     font-size: 40px;
-    font-weight: lighter;
     margin-bottom: 5px;
 }
 
 p {
-  font-family: 'moderneramono-regluar';
-  font-size: 18px;
+  font-family: 'modernera-regluar';
+  font-size: 17px;
+}
+
+h3 {
+font-family: moret, serif;
+font-weight: 400;
+font-size: 25px;
+padding-bottom: 20px;
+color: #E06C00;
+}
+
+.registration-para{
+  text-align: left;
 }
 
 header span
@@ -159,7 +173,7 @@ header span
 
 div.container
 {
-  font-family: 'moderneramono-regluar';
+  font-family: 'modernera-regluar';
     margin: 0 auto;
   padding:50px;
   text-align: center;
@@ -169,7 +183,7 @@ div.container a
 {
     color: #333;
     text-decoration: none;
-    font-family: 'moderneramono-regluar';
+    font-family: 'modernera-regluar';
     margin: 0px 10px;
     margin-bottom: 40px;
     padding: 10px 10px;
@@ -246,10 +260,10 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 .container h1:nth-child(1) {
   color: #ffffff;
-   font-family: 'moderneramono-regluar';
-  font-weight: 800;
-  font-size: 30px;
-  text-align: center;
+   font-family: moret, serif;
+font-weight: 800;
+  font-size: 35px;
+  text-align: c5nter;
   white-space: nowrap;
   overflow: hidden;
   animation: type 2s steps(2,end) forwards;
@@ -257,11 +271,12 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 .container h1:nth-child(2) {
   opacity: 0;
-   font-family: 'moderneramono-regluar';
+font-family: moret, serif;
+
   margin: 0 auto auto auto;
   background: linear-gradient(to right,  #e74c3c, #fff, #3498db);
   font-weight: 800;
-  font-size: 70px;  
+  font-size: 75px;  
   width: 500px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -425,6 +440,8 @@ div.brackets a:hover:before, div.brackets a:hover:after
 /*------------Intro Section---------------*/
 
 .intro-section{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
   width: auto;
   margin: 20px;
   text-align: center;
@@ -440,21 +457,31 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
 #map .state .label_state {
     display: none;
-     font-family: 'moderneramono-regluar';
-    font-size: 25px;
-    font-weight:normal;
+    font-family: 'modernera-regluar';
+    font-size: 20px;
     text-align:center;
 }
 #map .state:hover .label_state, #map .state.hover .label_state {
     display: flex;
+  
 
 }
+
+
+
+.label_state{
+  text-decoration: underline;
+  color: #AA7DCE;
+}
+
+
+
 #map .model-green .state .shape {
-    fill: #A2E3C4;
+    fill: #F5AF00;
 }
 
 #map .model-green .state:hover .shape, #map .model-green .state.hover .shape {
-    fill: #ccc;
+    fill: #E06C00;
 }
 
 
@@ -495,7 +522,7 @@ a:hover {
     width:100%;
     text-align: center;
     font-size: 12px;
-     font-family: 'moderneramono-regluar';
+    font-family: 'modernera-regluar';
     font-weight: 300;
     font-style: normal;
     }
@@ -519,6 +546,17 @@ a:hover {
     display:none;
   }
   
+.intro-section{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  
+  padding-bottom: 50px;
+}
+
+.mobile-links{
+   padding: 40px;
+  }
+
 
 }
 
