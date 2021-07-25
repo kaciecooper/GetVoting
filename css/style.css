@@ -105,7 +105,6 @@ div.container a {
   margin: 0px 10px;
   margin-bottom: 40px;
   padding: 10px 10px;
-
   position: relative;
   z-index: 0;
   cursor: pointer;
@@ -113,9 +112,6 @@ div.container a {
 
 .cyan {
   background: #fff;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
   /*
     background: #B3BFB8;
     */
@@ -540,10 +536,13 @@ body {
 .p{
   padding-bottom:30px ;
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> parent of 97f09ad (updating mobile links)
 }
 
 
