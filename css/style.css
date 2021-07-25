@@ -542,15 +542,8 @@ body {
 }
 
 
-div.brackets a:before,
-div.brackets a:after {
-  position: absolute;
-  opacity: 0;
-  font-size: 30px;
-  top: 0px;
-  transition: all 0.3s;
-  color: rgba(255, 0, 0, 0);
-}
+
+
 }
 
 
