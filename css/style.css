@@ -105,6 +105,7 @@ div.container a {
   margin: 0px 10px;
   margin-bottom: 40px;
   padding: 10px 10px;
+
   position: relative;
   z-index: 0;
   cursor: pointer;
@@ -112,6 +113,9 @@ div.container a {
 
 .cyan {
   background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
   /*
     background: #B3BFB8;
     */
@@ -535,6 +539,17 @@ body {
 
 .p{
   padding-bottom:30px ;
+}
+
+
+div.brackets a:before,
+div.brackets a:after {
+  position: absolute;
+  opacity: 0;
+  font-size: 30px;
+  top: 0px;
+  transition: all 0.3s;
+  color: rgba(255, 0, 0, 0);
 }
 }
 
