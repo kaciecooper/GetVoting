@@ -138,14 +138,24 @@ h1 {
 p {
   font-family: 'modernera-regluar';
   font-size: 17px;
+  padding: 10px;
 }
 
 h3 {
   font-family: moret, serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 30px;
   padding-bottom: 20px;
   color: #E06C00;
+
+}
+
+h4 {
+  font-family: moret, serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+  color: #333;
 }
 
 .registration-para {
@@ -157,12 +167,26 @@ header span {
 }
 
 
+/*------------Logo---------------*/
+
+.logo-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.gv-logo{
+  margin: auto
+
+}
+
+
 /*------------NAV---------------*/
 
 div.container {
   font-family: 'modernera-regluar';
   margin: 0 auto;
-  padding: 50px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -438,6 +462,7 @@ div.brackets a:hover:after {
 
 .map-section {
   margin-top: 100px;
+  margin-bottom:  100px;
 }
 
 #map .state .label_state {
@@ -473,19 +498,53 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: #000;
-  font-size: 14px;
+  font-size: 15px;
+
   padding: 15px;
 }
 
 a:hover {
-  color: #ccc;
+  color: #E06C00;
 }
 
 .mobile-links {
   display: grid;
+  font-family: 'modernera-regluar';
+  font-size: 15px;
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
   width: 100%;
+
+}
+
+.mobile-links: hover {
+  color: #E06C00;
+
+}
+
+
+
+/*------------Resource Intro---------------*/
+.resource-h3{
+
+ text-align: center;
+ padding: 10px;
+}
+
+.resource-intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  margin: auto;
+}
+/*------------Resource Section---------------*/
+
+.resource-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+  margin: auto;
+
 }
 
 
@@ -493,14 +552,14 @@ a:hover {
 
 .footer {
   color: #f7b000;
-  margin: 0px auto;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
   width: 100%;
   text-align: center;
   font-size: 12px;
   font-family: 'modernera-regluar';
   font-weight: 300;
   font-style: normal;
+  background-color: #fff;
 }
 
 
@@ -524,6 +583,31 @@ a:hover {
   .mobile-links {
     padding: 40px;
   }
+
+.resource-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px;
 }
+
+.resource-h3{
+ font-size: 25px;
+ text-align:center;
+ padding: 10px;
+}
+
+.resource-intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  margin: auto;
+}
+
+.p{
+  padding-bottom:30px ;
+}
+}
+
+
 
 </style>
